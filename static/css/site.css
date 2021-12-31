@@ -26,3 +26,11 @@ img {
 #welcome-img {
   height: 15em;
 }
+
+.profile {
+  border: 1px solid black;
+  width: 11em;
+  height: 15em;
+  margin: 2em;
+  padding: 1em;
+}

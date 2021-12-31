@@ -52,19 +52,6 @@ const tradingCardData = [
 ];
 
 
-const allTradingCards = (tradingCardArray) => {
-  const tradingCardComponents = [];
-
-  for (const tradingCard of tradingCardArray) {
-    tradingCardComponents.push(`<TradingCard name="${tradingCard.name} skill="${tradingCard.skill}" imgUrl="${tradingCard.imgUrl}" />`);
-  }
-
-  return tradingCardComponents;
-};
-
-console.log(allTradingCards(tradingCardData));
-
-
 function TradingCard(props) {
   return (
     <div className="card">
